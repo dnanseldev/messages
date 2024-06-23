@@ -1,6 +1,6 @@
 ### List all messages
 
-GET http://localhost:3000/messages HTTP/1.1
+GET http://localhost:3000/messages
 
 ### Create a new message
 
@@ -8,10 +8,10 @@ POST http://localhost:3000/messages
 content-type: application/json
 
 {
-    "id": 5,
+    "id": "2",
     "content": "Das ist ein message 05"
 }
 
 ### Get a particular message
 
-GET http://localhost:3000/messages/3
+GET http://localhost:3000/messages/260
